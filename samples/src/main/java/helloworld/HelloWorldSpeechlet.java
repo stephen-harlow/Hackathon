@@ -9,44 +9,15 @@
  */
 package helloworld;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.eclipsesource.json.Json;
-import com.eclipsesource.json.JsonArray;
-import com.eclipsesource.json.JsonObject;
-import com.eclipsesource.json.JsonValue;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import com.eclipsesource.json.*;
-
 import com.amazon.speech.slu.Intent;
 import com.amazon.speech.slu.Slot;
+import com.amazon.speech.speechlet.*;
+import com.amazon.speech.ui.PlainTextOutputSpeech;
 import com.amazon.speech.ui.Reprompt;
-
-import com.amazon.speech.speechlet.IntentRequest;
-import com.amazon.speech.speechlet.LaunchRequest;
-import com.amazon.speech.speechlet.Session;
-import com.amazon.speech.speechlet.SessionEndedRequest;
-import com.amazon.speech.speechlet.SessionStartedRequest;
-import com.amazon.speech.speechlet.Speechlet;
-import com.amazon.speech.speechlet.SpeechletException;
-import com.amazon.speech.speechlet.SpeechletResponse;
-import com.amazon.speech.ui.*;
-import sun.awt.image.ImageWatched;
-
-import java.io.*;
-
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.lang.Exception;
-import java.lang.String;
-import java.lang.StringBuilder;
-import java.net.HttpURLConnection;
-import java.net.URL;
-import java.util.*;
-import javax.net.ssl.HttpsURLConnection;
+import com.amazon.speech.ui.SimpleCard;
+import com.eclipsesource.json.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * This sample shows how to create a simple speechlet for handling speechlet requests.
