@@ -1,0 +1,5 @@
+Launcher.class
+session/SessionSpeechlet.class
+session/SessionSpeechletRequestStreamHandler.class
+helloworld/HelloWorldSpeechletRequestStreamHandler.class
+helloworld/HelloWorldSpeechlet.class

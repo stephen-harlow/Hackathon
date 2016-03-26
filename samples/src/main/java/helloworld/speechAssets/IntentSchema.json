@@ -1,0 +1,15 @@
+{
+  "intents": [
+    {
+      "intent": "HelloWorldIntent",
+      "slots": [
+        {
+          "name": "command",
+          "type": "AMAZON.LITERAL"
+        }
+      ]},
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+[  
+   {  
+      "type":"streaming",
+      "title":"stream",
+      "description":"Subscription based and free instant streaming services.",
+      "providers":[  
+         {  
+            "name":"Netflix Instant",
+            "key":"netflix_instant",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Amazon Prime",
+            "key":"amazon_prime_instant_video",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Hulu Plus",
+            "key":"hulu_movies",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Crackle",
+            "key":"crackle",
+            "price":"Ads"
+         },
+         {  
+            "name":"Youtube",
+            "key":"youtube_free",
+            "price":"Ads"
+         },
+         {  
+            "name":"EpixHD",
+            "key":"epix",
+            "price":"Subscription"
+         },
+         {  
+            "name":"an XFINITY Streampix",
+            "key":"streampix",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Snagfilms",
+            "key":"snagfilms",
+            "price":"Ads"
+         },
+         {  
+            "name":"Fandor",
+            "key":"fandor_streaming",
+            "price":"Subscription"
+         }
+      ]
+   },
+   {  
+      "type":"rental",
+      "title":"digitally rent",
+      "description":"Services that offer time limited rentals (24-48 hours) for a small fee.",
+      "providers":[  
+         {  
+            "name":"Amazon Video",
+            "key":"amazon_video_rental"
+         },
+         {  
+            "name":"Apple iTunes",
+            "key":"apple_itunes_rental"
+         },
+         {  
+            "name":"Google Play",
+            "key":"android_rental"
+         },
+         {  
+            "name":"Vudu",
+            "key":"vudu_rental"
+         },
+         {  
+            "name":"Youtube",
+            "key":"youtube_rental"
+         },
+         {  
+            "name":"Sony Entertainment",
+            "key":"sony_rental"
+         }
+      ]
+   },
+   {  
+      "type":"purchase",
+      "title":"purchase",
+      "description":"Services that offer the ability to purchase a movie forever.",
+      "providers":[  
+         {  
+            "name":"Amazon Video",
+            "key":"amazon_video_purchase"
+         },
+         {  
+            "name":"Apple iTunes",
+            "key":"apple_itunes_purchase"
+         },
+         {  
+            "name":"Google Play",
+            "key":"android_purchase"
+         },
+         {  
+            "name":"Vudu",
+            "key":"vudu_purchase"
+         },
+         {  
+            "name":"Xbox",
+            "key":"xbox_purchase",
+            "price":"Points"
+         },
+         {  
+            "name":"Sony Entertainment",
+            "key":"sony_purchase"
+         }
+      ]
+   },
+   {  
+      "type":"dvd",
+      "title":"purchase or rent a physical copy ",
+      "description":"Services that allow you to purchase or rent a physical dvd\/blu-ray disc.",
+      "providers":[  
+         {  
+            "name":"Amazon DVD",
+            "key":"amazon_dvd"
+         },
+         {  
+            "name":"Amazon Bluray",
+            "key":"amazon_bluray"
+         },
+         {  
+            "name":"Netflix DVD",
+            "key":"netflix_dvd",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Redbox",
+            "key":"redbox",
+            "price":"$1.20+"
+         }
+      ]
+   },
+   {  
+      "type":"xfinity",
+      "title":"use an XFINITY subscription ",
+      "description":"Cable Subscription services with online viewing brought to you by Xfinity.",
+      "providers":[  
+         {  
+            "name":"HBO GO",
+            "key":"hbo",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Showtime",
+            "key":"showtime",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Cinemax",
+            "key":"cinemax",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Starz",
+            "key":"starz",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Encore",
+            "key":"encore",
+            "price":"Subscription"
+         },
+         {  
+            "name":"Free on XFINITY",
+            "key":"xfinity_free",
+            "price":"Free"
+         }
+      ]
+   }
+]
