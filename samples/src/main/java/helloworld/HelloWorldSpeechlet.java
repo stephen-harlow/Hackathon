@@ -51,7 +51,7 @@ public class HelloWorldSpeechlet implements Speechlet {
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
         String[] intentNames = {"event", "date", "timeStart", "timeEnd", "duration"};
-        if ("EventIntent".equals(intentName)) {
+        if (!"AMAZON.HelpIntent".equals(intentName)) {
             String empt = "";
 
             for(String in:intentNames)
