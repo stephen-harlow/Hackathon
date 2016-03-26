@@ -51,6 +51,7 @@ import javax.net.ssl.HttpsURLConnection;
 /**
  * This sample shows how to create a simple speechlet for handling speechlet requests.
  */
+//
 public class HelloWorldSpeechlet implements Speechlet {
     private static final Logger log = LoggerFactory.getLogger(HelloWorldSpeechlet.class);
 
