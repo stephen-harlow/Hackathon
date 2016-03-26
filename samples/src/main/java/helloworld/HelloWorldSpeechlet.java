@@ -109,7 +109,7 @@ public class HelloWorldSpeechlet implements Speechlet {
      */
     private SpeechletResponse getWelcomeResponse() {
         String speechText = "Welcome to the Alexa Skills Kit, you can say hello";
-
+        //
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
         card.setTitle("HelloWorld");
