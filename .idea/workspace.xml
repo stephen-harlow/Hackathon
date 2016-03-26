@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="add273f3-8bc7-4abd-bb16-7b05820ed6c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt" />
     </list>
     <ignored path="Hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -557,7 +556,7 @@
       <workItem from="1459004984929" duration="1262000" />
       <workItem from="1459013886875" duration="3845000" />
       <workItem from="1459018287496" duration="384000" />
-      <workItem from="1459019107331" duration="222000" />
+      <workItem from="1459019107331" duration="228000" />
     </task>
     <task id="LOCAL-00001" summary="Small Little Change">
       <created>1459007692157</created>
@@ -587,11 +586,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459019323696</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Small Little Change">
+      <created>1459019355539</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459019355539</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5713000" />
+    <option name="totallyTimeSpent" value="5719000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
