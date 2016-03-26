@@ -78,15 +78,19 @@ public class HelloWorldSpeechlet implements Speechlet {
 
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
+        String[] intentNames = {"event", "date", "timeStart", "timeEnd", "duration"};
+        if ("EventIntent".equals(intentName)) {
+            String empt = "";
 
-        if ("HelloWorldIntent".equals(intentName)) {
-            Slot citySlot = intent.getSlot("command");
-            if(citySlot != null && citySlot.getValue() != null) {
-                String requested = citySlot.getValue().toString();
-
-                return getHelloResponse(requested);
+            for(String in:intentNames)
+            {
+                Slot slot = intent.getSlot(in);
+                if(slot != null && slot.getValue() != null) {
+                    empt += in +"::" +slot.getValue().toString() + "\r\n";
+                }
             }
-            return getHelloResponse();
+
+            return getHelloResponse(empt);
         } else if ("AMAZON.HelpIntent".equals(intentName)) {
             return getHelpResponse();
         } else {
@@ -132,11 +136,11 @@ public class HelloWorldSpeechlet implements Speechlet {
      * @return SpeechletResponse spoken and visual response for the given intent
      */
     private SpeechletResponse getHelloResponse(String item) {
-        String speechText = "Hello " + item;
+        String speechText = item;
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
-        card.setTitle("HelloWorld");
+        card.setTitle("Testing it");
         card.setContent(speechText);
 
         // Create the plain text output.

@@ -1,2 +1,3 @@
+"event", "date", "timeStart", "timeEnd", "duration"
 HelloWorldIntent say hello
 HelloWorldIntent say hi to {Steven|command}

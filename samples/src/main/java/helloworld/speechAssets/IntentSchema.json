@@ -1,11 +1,99 @@
 {
   "intents": [
     {
-      "intent": "HelloWorldIntent",
+      "intent": "CreateEventIntent",
       "slots": [
         {
-          "name": "command",
+          "name": "event",
           "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "timeStart",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "timeEnd",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]},
+    {
+      "intent": "ViewEventIntent",
+      "slots": [
+        {
+          "name": "event",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "timeStart",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "timeEnd",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]},
+    {
+      "intent": "RemoveEventIntent",
+      "slots": [
+        {
+          "name": "event",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "timeStart",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "timeEnd",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
+        }
+      ]},
+    {
+      "intent": "UpdateEventIntent",
+      "slots": [
+        {
+          "name": "event",
+          "type": "AMAZON.LITERAL"
+        },
+        {
+          "name": "date",
+          "type": "AMAZON.DATE"
+        },
+        {
+          "name": "timeStart",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "timeEnd",
+          "type": "AMAZON.TIME"
+        },
+        {
+          "name": "duration",
+          "type": "AMAZON.DURATION"
         }
       ]},
     {
