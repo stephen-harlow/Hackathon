@@ -49,7 +49,7 @@ public class HelloWorldSpeechlet implements Speechlet {
     private static final Logger log = LoggerFactory.getLogger(HelloWorldSpeechlet.class);
 
     private static final String LIST_KEY = "LIST";
-    private static final String LIST_SLOT = "List";
+    private static final String LIST_SLOT = "event";
 
     @Override
     public void onSessionStarted(final SessionStartedRequest request, final Session session)
@@ -79,6 +79,7 @@ public class HelloWorldSpeechlet implements Speechlet {
         String[] intentNames = {"event", "date", "timeStart", "duration"};
 
         if ("OpenListIntent".equals(intentName)) {
+            System.out.println();
             Slot slot = intent.getSlot("event");
             if (slot != null && slot.getValue() != null) {
                 return setListInSession(intent, session);
