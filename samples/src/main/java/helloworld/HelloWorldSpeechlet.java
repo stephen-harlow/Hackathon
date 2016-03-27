@@ -49,21 +49,24 @@ public class HelloWorldSpeechlet implements Speechlet {
         log.info("onIntent requestId={}, sessionId={}", request.getRequestId(),
                 session.getSessionId());
 
+        String[] intentValues = new String[4];
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
-        String[] intentNames = {"event", "date", "timeStart", "timeEnd", "duration"};
+        String[] intentNames = {"event", "date", "timeStart", "duration"};
         if ("CreateEventIntent".equals(intentName)) {
             String empt = "";
 
-            for(String in:intentNames)
+            for(int i = 0; i < 4; i++)
             {
-                Slot slot = intent.getSlot(in);
+                Slot slot = intent.getSlot(intentName[i]);
                 if(slot != null && slot.getValue() != null) {
-                    empt += in +"::" +slot.getValue().toString() + "\r\n";
+                    intentValues[i] = slot.getValue().toString();
                 }
+                else
+                    intentValues[i] = "";
             }
 
-            return getHelloResponse(empt);
+            return getCreationResponse(intentValues);
         }else if("ViewEventIntent".equals(intentName))
         {
             String empt = "";
@@ -122,7 +125,7 @@ public class HelloWorldSpeechlet implements Speechlet {
      *
      * @return SpeechletResponse spoken and visual response for the given intent
      */
-    private SpeechletResponse getCreationResponse(String item) {
+    private SpeechletResponse getCreationResponse(String[] item) {
         String speechText = item;
 
         // Create the Simple card content.

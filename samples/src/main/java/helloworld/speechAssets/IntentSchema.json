@@ -20,14 +20,6 @@
           "type": "AMAZON.TIME"
         },
         {
-          "name": "timeEnd",
-          "type": "AMAZON.TIME"
-        },
-        {
-          "name": "location",
-          "type": "EVENTLIST"
-        },
-        {
           "name": "duration",
           "type": "AMAZON.DURATION"
         }
@@ -52,10 +44,6 @@
           "type": "AMAZON.TIME"
         },
         {
-          "name": "location",
-          "type": "EVENTLIST"
-        },
-        {
           "name": "duration",
           "type": "AMAZON.DURATION"
         }
@@ -76,10 +64,6 @@
           "type": "AMAZON.TIME"
         },
         {
-          "name": "location",
-          "type": "EVENTLIST"
-        },
-        {
           "name": "duration",
           "type": "AMAZON.DURATION"
         }
@@ -98,10 +82,6 @@
         {
           "name": "timeStart",
           "type": "AMAZON.TIME"
-        },
-        {
-          "name": "location",
-          "type": "EVENTLIST"
         },
         {
           "name": "duration",
