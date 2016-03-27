@@ -1,10 +1,9 @@
 import models.WList;
 import models.WTask;
-import retrofit2.Call;
-import retrofit2.GsonConverterFactory;
-import retrofit2.Response;
-import retrofit2.Retrofit;
-
+//import retrofit2.*;
+import retrofit2.*;
+import converter.*;
+//
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
@@ -12,7 +11,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.List;
 
-class Wund{
+public class Wund{
 	String client_key = "86fbf1f67c17a31b6df7";
 	String access_code = "";
 	Retrofit retrofit;

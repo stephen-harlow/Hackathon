@@ -77,7 +77,7 @@ public class HelloWorldSpeechlet implements Speechlet {
             throws SpeechletException {
         log.info("onIntent requestId={}, sessionId={}", request.getRequestId(),
                 session.getSessionId());
-        Wund item = new Wund(session.getUser().getAccessToken());
+//        Wund item = new Wund(session.getUser().getAccessToken());
         String[] intentValues = new String[4];
         String[] vals = new String[2];
         Intent intent = request.getIntent();
@@ -119,7 +119,7 @@ public class HelloWorldSpeechlet implements Speechlet {
                 //return getSpeechletResponse("I'm unable to add a list now. Please try again later", "", false, session);
                 //otherwise, set session to the name of the event
                 //
-                item.addList(intent.getSlot("event"));
+//                item.addList(intent.getSlot("event"));
 
                 vals = new String[]{"I have now created the list named ", "What would you like to do next in the list?"};
                 return setListInSession(true, vals, "create", intent, session);
