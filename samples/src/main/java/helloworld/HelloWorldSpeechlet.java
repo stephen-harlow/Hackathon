@@ -18,6 +18,7 @@ import com.amazon.speech.ui.SimpleCard;
 import com.eclipsesource.json.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import java.util.Date;
 
 /**
  * This sample shows how to create a simple speechlet for handling speechlet requests.
@@ -51,7 +52,7 @@ public class HelloWorldSpeechlet implements Speechlet {
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
         String[] intentNames = {"event", "date", "timeStart", "timeEnd", "duration"};
-        if (!"AMAZON.HelpIntent".equals(intentName)) {
+        if ("CreateEventIntent".equals(intentName)) {
             String empt = "";
 
             for(String in:intentNames)
@@ -63,7 +64,21 @@ public class HelloWorldSpeechlet implements Speechlet {
             }
 
             return getHelloResponse(empt);
-        } else if ("AMAZON.HelpIntent".equals(intentName)) {
+        }else if("ViewEventIntent".equals(intentName))
+        {
+            String empt = "";
+
+            for(String in:intentNames)
+            {
+                Slot slot = intent.getSlot(in);
+                if(slot != null && slot.getValue() != null) {
+                    empt += in +"::" +slot.getValue().toString() + "\r\n";
+                }
+            }
+
+            return getHelloResponse(empt);
+        }
+        else if ("AMAZON.HelpIntent".equals(intentName)) {
             return getHelpResponse();
         } else {
             throw new SpeechletException("Invalid Intent");
@@ -107,12 +122,26 @@ public class HelloWorldSpeechlet implements Speechlet {
      *
      * @return SpeechletResponse spoken and visual response for the given intent
      */
-    private SpeechletResponse getHelloResponse(String item) {
+    private SpeechletResponse getCreationResponse(String item) {
         String speechText = item;
 
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
-        card.setTitle("Testing it");
+        card.setTitle("Create Intent");
+        card.setContent(speechText);
+
+        // Create the plain text output.
+        PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
+        speech.setText(speechText);
+
+        return SpeechletResponse.newTellResponse(speech, card);
+    }
+    private SpeechletResponse getViewResponse(String item) {
+        String speechText = item;
+
+        // Create the Simple card content.
+        SimpleCard card = new SimpleCard();
+        card.setTitle("View Intent");
         card.setContent(speechText);
 
         // Create the plain text output.

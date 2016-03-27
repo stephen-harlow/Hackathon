@@ -1,1 +1,38 @@
-CreateEventIntent add
+CreateEventIntent schedule {creation} {event} {timeStart}
+CreateEventIntent schedule {creation} {event} {date}
+CreateEventIntent schedule {creation} {event} on {date} {timeStart}
+CreateEventIntent schedule {creation} {event} on {date} at {timeStart}
+CreateEventIntent schedule {creation} {event} for {date} {timeStart}
+CreateEventIntent schedule {creation} {event} for {date} at {timeStart}
+CreateEventIntent schedule {creation} {event} {date} {timeStart}
+CreateEventIntent schedule {creation} {event} {date} at {timeStart}
+CreateEventIntent schedule {creation} {event}
+CreateEventIntent add {creation} {event} {timeStart}
+CreateEventIntent add {creation} {event} {date}
+CreateEventIntent add {creation} {event} on {date} {timeStart}
+CreateEventIntent add {creation} {event} on {date} at {timeStart}
+CreateEventIntent add {creation} {event} for {date} {timeStart}
+CreateEventIntent add {creation} {event} for {date} at {timeStart}
+CreateEventIntent add {creation} {event} {date} {timeStart}
+CreateEventIntent add {creation} {event} {date} at {timeStart}
+CreateEventIntent add {creation} {event}
+CreateEventIntent create {creation} {event} {timeStart}
+CreateEventIntent create {creation} {event} {date}
+CreateEventIntent create {creation} {event} on {date} {timeStart}
+CreateEventIntent create {creation} {event} on {date} at {timeStart}
+CreateEventIntent create {creation} {event} for {date} {timeStart}
+CreateEventIntent create {creation} {event} for {date} at {timeStart}
+CreateEventIntent create {creation} {event} {date} {timeStart}
+CreateEventIntent create {creation} {event} {date} at {timeStart}
+CreateEventIntent create {creation} {event}
+CreateEventIntent remind me {event} {duration}
+CreateEventIntent remind me {event} in {duration}
+
+ViewEventIntent What do I have {viewing} {date}
+ViewEventIntent What do I have {viewing} {date} {timeStart}
+ViewEventIntent What do I have {viewing} {date} at {timeStart}
+ViewEventIntent What's going on
+ViewEventIntent What's going on {date}
+ViewEventIntent What am I doing {date}
+ViewEventIntent What am I doing {date} {timeStart}
+ViewEventIntent What am I doing {date} at {timeStart}
