@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add273f3-8bc7-4abd-bb16-7b05820ed6c1" name="Default" comment="First Zip">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/retrofit-2.0.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/models/AllLists.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json" />
     </list>
     <ignored path="Hackathon.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,35 +28,13 @@
     <favorites_list name="Hackathon" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SampleUtterances.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
+    <leaf>
+      <file leaf-file-name="Api.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+            <state vertical-scroll-proportion="0.08261618">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntentSchema.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HelloWorldSpeechlet.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1260">
-              <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -79,6 +59,10 @@
         <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/CREATION" />
         <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json" />
         <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/models/AllLists.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/Main.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java" />
       </list>
     </option>
   </component>
@@ -88,8 +72,9 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="height" value="675" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -116,6 +101,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -184,20 +171,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Alexa" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="88" />
@@ -216,166 +201,20 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="917" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
-    <property name="FullScreen" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -544,12 +383,13 @@
       <method />
     </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
       <setting name="vmparams" value="" />
       <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="false" />
       <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -714,7 +554,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
       <node-options />
       <gulpfile />
       <tasks />
@@ -726,7 +565,6 @@
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run-script" />
       <scripts />
-      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
@@ -737,9 +575,7 @@
       <method />
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
-  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -748,45 +584,42 @@
       <changelist id="add273f3-8bc7-4abd-bb16-7b05820ed6c1" name="Default" comment="" />
       <created>1459004982109</created>
       <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
       <updated>1459004982109</updated>
       <workItem from="1459004984929" duration="1262000" />
       <workItem from="1459013886875" duration="3845000" />
       <workItem from="1459018287496" duration="1024000" />
       <workItem from="1459019672633" duration="5004000" />
+      <workItem from="1459045925215" duration="203000" />
+      <workItem from="1459046176940" duration="706000" />
+      <workItem from="1459090164029" duration="10000" />
     </task>
     <task id="LOCAL-00001" summary="Small Little Change">
       <created>1459007692157</created>
       <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
       <updated>1459007692157</updated>
     </task>
     <task id="LOCAL-00002" summary="Small Little Change">
       <created>1459017144844</created>
       <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
       <updated>1459017144844</updated>
     </task>
     <task id="LOCAL-00003" summary="Small Little Change">
       <created>1459017618833</created>
       <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
       <updated>1459017618833</updated>
     </task>
     <task id="LOCAL-00004" summary="First Zip">
       <created>1459019014249</created>
       <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
       <option name="project" value="LOCAL" />
       <updated>1459019014249</updated>
     </task>
     <task id="LOCAL-00005" summary="First Zip">
       <created>1459039869514</created>
       <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
       <option name="project" value="LOCAL" />
       <updated>1459039869514</updated>
     </task>
@@ -794,38 +627,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11135000" />
+    <option name="totallyTimeSpent" value="12054000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1280" height="675" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4072165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -854,43 +687,103 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/LIST_OF_MOVIE">
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <marker date="1459043603000" expanded="false" signature="0:556" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="585:929" placeholder="..." />
+            <marker date="1459043603000" expanded="true" signature="931:1025" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="1321:1503" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="1647:1812" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="1956:3403" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="3546:3719" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="3725:3903" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="3955:4550" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="4047:4092" placeholder="//..." />
+            <marker date="1459043603000" expanded="true" signature="4556:4720" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="4786:5203" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="5263:5678" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="5729:6152" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="6158:6321" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="6370:6929" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1459043603000" expanded="false" signature="0:556" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="585:929" placeholder="..." />
+            <marker date="1459043603000" expanded="true" signature="931:1025" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="1321:1503" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="1647:1812" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="1956:3403" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="3546:3719" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="3725:3903" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="3955:4550" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="4047:4092" placeholder="//..." />
+            <marker date="1459043603000" expanded="true" signature="4556:4720" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="4786:5203" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="5263:5678" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="5729:6152" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="6158:6321" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="6370:6929" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechletRequestStreamHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -898,57 +791,54 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/LIST_OF_MOVIE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1459043603000" expanded="false" signature="0:556" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="585:929" placeholder="..." />
+            <marker date="1459043603000" expanded="true" signature="931:1025" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="1321:1503" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="1647:1812" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="1956:3403" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="3546:3719" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="3725:3903" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="3955:4550" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="4047:4092" placeholder="//..." />
+            <marker date="1459043603000" expanded="true" signature="4556:4720" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="4786:5203" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="5263:5678" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="5729:6152" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="6158:6321" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="6370:6929" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/LIST_OF_MOVIE">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state vertical-scroll-proportion="0.0">
           <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding />
         </state>
@@ -956,7 +846,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechletRequestStreamHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state vertical-scroll-proportion="0.0">
           <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
           <folding />
         </state>
@@ -964,51 +854,167 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/EVENTLIST">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/CREATION">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/VIEWING">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state vertical-scroll-proportion="0.0">
           <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.24439919">
+          <caret line="136" column="2" selection-start-line="136" selection-start-column="2" selection-end-line="136" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1459043603000" expanded="false" signature="0:556" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="585:929" placeholder="..." />
+            <marker date="1459043603000" expanded="true" signature="931:1025" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="1321:1503" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="1647:1812" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="1956:3403" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="3546:3719" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="3725:3903" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="3955:4550" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="4047:4092" placeholder="//..." />
+            <marker date="1459043603000" expanded="true" signature="4556:4720" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="4786:5203" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="5263:5678" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="5729:6152" placeholder="{...}" />
+            <marker date="1459043603000" expanded="true" signature="6158:6321" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="6370:6929" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/models/AllLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding>
+            <marker date="1459046372000" expanded="true" signature="29:62" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="87:123" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="154:195" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="230:269" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="299:339" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="373:410" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="444:483" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="514:555" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="590:625" placeholder="@{...}" />
+            <marker date="1459046372000" expanded="true" signature="656:703" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="726:737" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="747:753" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="759:808" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="838:849" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="862:868" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="874:924" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="953:964" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="977:983" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="989:1044" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="1083:1094" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="1113:1119" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="1125:1179" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="1212:1223" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="1240:1246" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="1252:1316" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="1363:1374" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="1401:1407" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="1413:1465" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="1493:1504" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="1519:1525" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="1531:1591" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="1631:1642" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="1665:1671" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="1677:1730" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="1762:1773" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="1789:1795" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="1801:1863" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="1908:1919" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="1944:1950" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="1956:2008" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="2038:2049" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="2064:2070" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="2076:2134" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="2177:2188" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="2211:2217" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="2223:2276" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="2305:2316" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="2332:2338" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="2344:2405" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="2447:2458" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="2483:2489" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="2495:2549" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="2582:2593" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="2610:2616" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="2622:2686" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="2733:2744" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="2771:2777" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="2783:2832" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="2860:2871" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="2883:2889" placeholder=" }" />
+            <marker date="1459046372000" expanded="true" signature="2895:2948" placeholder="/**...*/" />
+            <marker date="1459046372000" expanded="false" signature="2985:2996" placeholder=" { " />
+            <marker date="1459046372000" expanded="false" signature="3013:3019" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21052632">
+          <caret line="2" column="94" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
+          <folding>
+            <marker date="1459090104000" expanded="true" signature="326:332" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
+          <folding>
+            <marker date="1459090104000" expanded="true" signature="135:268" placeholder="{...}" />
+            <marker date="1459090104000" expanded="true" signature="3388:3393" placeholder="{...}" />
+            <marker date="1459090104000" expanded="true" signature="414:623" placeholder="{...}" />
+            <marker date="1459090104000" expanded="false" signature="482:489" placeholder=" { " />
+            <marker date="1459090104000" expanded="false" signature="522:527" placeholder=" }" />
+            <marker date="1459090104000" expanded="false" signature="585:592" placeholder=" { " />
+            <marker date="1459090104000" expanded="false" signature="614:619" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08261618">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
