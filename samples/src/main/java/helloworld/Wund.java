@@ -1,9 +1,8 @@
-import models.WList;
-import models.WTask;
+package helloworld;
+//import WList;
+//import WTask;
 //import retrofit2.*;
 import retrofit2.*;
-import converter.*;
-//
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
@@ -20,7 +19,7 @@ public class Wund{
 		this.access_code = access_code;
 		retrofit = new Retrofit.Builder()
 				.baseUrl("https://a.wunderlist.com/")
-				.addConverterFactory(GsonConverterFactory.create())
+				.addConverterFactory(retrofit2.GsonConverterFactory.create())
 				.build();
 	}
 

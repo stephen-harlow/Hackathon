@@ -1,0 +1,9 @@
+helloworld/Api.class
+helloworld/Wund.class
+Launcher.class
+helloworld/WList.class
+session/SessionSpeechlet.class
+helloworld/WTask.class
+session/SessionSpeechletRequestStreamHandler.class
+helloworld/HelloWorldSpeechletRequestStreamHandler.class
+helloworld/HelloWorldSpeechlet.class
