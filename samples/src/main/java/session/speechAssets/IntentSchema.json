@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "WIntent",
+      "slots": [
+        {
+          "name": "Color",
+          "type": "LIST_OF_COLORS"
+        }
+      ]
+    },
+    {
+      "intent": "WhatsMyColorIntent"
+    }
+  ]
+}
