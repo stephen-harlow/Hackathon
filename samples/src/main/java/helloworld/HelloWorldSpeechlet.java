@@ -191,7 +191,7 @@ public class HelloWorldSpeechlet implements Speechlet {
         if (favoriteListSlot != null) {
             // Store the user's favorite color in the Session and create response.
             String listname = favoriteListSlot.getValue();
-            session.setAttribute(LIST_KEY, listname);
+            session.setAttribute(LIST_KEY, listname;
             speechText =
                     String.format(pass[0] + listname);
             repromptText = pass[1];
