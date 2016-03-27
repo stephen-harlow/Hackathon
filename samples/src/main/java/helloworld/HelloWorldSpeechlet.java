@@ -50,10 +50,14 @@ public class HelloWorldSpeechlet implements Speechlet {
 
     private static final String LIST_KEY = "LIST";
     private static final String LIST_SLOT = "event";
+    private static final String INBOX_KEY = "inbox";
 
     @Override
     public void onSessionStarted(final SessionStartedRequest request, final Session session)
             throws SpeechletException {
+        session.setAttribute(LIST_KEY, INBOX_KEY);
+
+
         log.info("onSessionStarted requestId={}, sessionId={}", request.getRequestId(),
                 session.getSessionId());
         // any initialization logic goes here
@@ -82,11 +86,57 @@ public class HelloWorldSpeechlet implements Speechlet {
             System.out.println();
             Slot slot = intent.getSlot("event");
             if (slot != null && slot.getValue() != null) {
-                return setListInSession(intent, session);
+                return setListInSession(new String{"I have now opened the list named","What would you like to do next in the list?"}, "open",intent, session);
             }
             else{
                 String speechText =
                         "I'm not quite sure what list you were looking for";
+                String repromptText =
+                        "Please try again. ";
+
+                return getSpeechletResponse(speechText, repromptText, true);
+
+            }
+          else if ("CreateListIntent".equals(intentName)) {
+                System.out.println();
+
+                Slot slot = intent.getSlot("event");
+                if (slot != null && slot.getValue() != null) {
+                    //if ben's code returns false, dont set session
+                    //return getSpeechletResponse("I'm unable to add a list now. Please try again later", "", false);
+                    //otherwise, set session to the name of the event
+                    //
+                    return setListInSession(new String{"I have now created the list named","What would you like to do next in the list?"}, "create",intent, session);
+
+                }
+                else{
+                    String speechText =
+                            "I couldn't hear what the list name was.";
+                    String repromptText =
+                            "Please try again. ";
+
+                    return getSpeechletResponse(speechText, repromptText, true);
+
+                }
+        else if ("DeleteListIntent".equals(intentName)) {
+            System.out.println();
+
+            Slot slot = intent.getSlot("event");
+            if (slot != null && slot.getValue() != null && slot.getValue() != INBOX_KEY) {
+                //if ben's code returns false, dont set session
+                //return getSpeechletResponse("I'm unable to remove a list now. Please try again later", "", false);
+                //otherwise, set session to the name of the event
+                //
+                if(slot.getValue().equals(session.getAttribute(LIST_KEY))){
+                    session.setAttribute(LIST_KEY, INBOX_KEY);
+                }
+                return setListInSession(new String{"I have now deleted the list named","What would you like to do next?"}, "delete",intent, session);
+
+
+            }
+            else{
+                String speechText =
+                        "I couldn't hear what the list name was.";
                 String repromptText =
                         "Please try again. ";
 
@@ -129,7 +179,7 @@ public class HelloWorldSpeechlet implements Speechlet {
 
 
     }
-    private SpeechletResponse setListInSession(final Intent intent, final Session session) {
+    private SpeechletResponse setListInSession(String pass[], String fail, final Intent intent, final Session session) {
         // Get the slots from the intent.
         Map<String, Slot> slots = intent.getSlots();
 
@@ -143,15 +193,13 @@ public class HelloWorldSpeechlet implements Speechlet {
             String listname = favoriteListSlot.getValue();
             session.setAttribute(LIST_KEY, listname);
             speechText =
-                    String.format("I have now opened the list called " + listname);
-            repromptText =
-                    "What would you like to do with the list?";
+                    String.format(pass[0] + listname);
+            repromptText = pass[1];
 
         } else {
             // Render an error since we don't know what the users favorite color is.
-            speechText = "I'm not sure what list you are trying to open. ";
-            repromptText =
-                    "What list would you like to open? ";
+            speechText = "I'm not sure what list you are trying to " + fail;
+            repromptText ="Please try again. ";
         }
 
         return getSpeechletResponse(speechText, repromptText, true);
