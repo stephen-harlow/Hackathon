@@ -52,14 +52,10 @@ public class Wund{
 		return null;
 	}
 
-	public void addList(String name) throws IOException {
+	public int addList(String name) throws IOException, MalformedURLException {
 		String url= "https://a.wunderlist.com/api/v1/lists?client_id=" + client_key + "&access_token=" + access_code;
 		URL object = null;
-		try {
-			object = new URL(url);
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
+		object = new URL(url);
 
 		HttpURLConnection con = (HttpURLConnection) object.openConnection();
 		con.setDoOutput(true);
@@ -71,6 +67,7 @@ public class Wund{
 		OutputStreamWriter wr = new OutputStreamWriter(con.getOutputStream());
 		wr.write("{\"title\":\""+name+"\"}");
 		wr.flush();
+		return con.getResponseCode();
 	}
 
 	public String nameToId(String name){

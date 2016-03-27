@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="add273f3-8bc7-4abd-bb16-7b05820ed6c1" name="Default" comment="First Zip">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/Launcher.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/helloworld/Api.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/helloworld/HelloWorldSpeechlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/helloworld/HelloWorldSpeechletRequestStreamHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/helloworld/WList.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/helloworld/Wund.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/session/SessionSpeechlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/session/SessionSpeechletRequestStreamHandler.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/target/alexa-skills-kit-samples-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/samples/target/alexa-skills-kit-samples-1.0-jar-with-dependencies.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/target/alexa-skills-kit-samples-1.0.jar" afterPath="$PROJECT_DIR$/samples/target/alexa-skills-kit-samples-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/samples/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    </list>
+    <ignored path="Hackathon.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Hackathon" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="HelloWorldSpeechlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.746114">
+              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/VIEWING" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/EVENTLIST" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/CREATION" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/Main.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/models/AllLists.java" />
+        <option value="$PROJECT_DIR$/samples/pom.xml" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/models/WList.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/models/WTask.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java" />
+        <option value="$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-5" />
+    <option name="y" value="53" />
+    <option name="width" value="1280" />
+    <option name="height" value="675" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hackathon">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hackathon">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="samples">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hackathon">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="samples">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="target">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hackathon">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="samples">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="target">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="classes">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hackathon">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="samples">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hackathon">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="samples">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main/java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="helloworld">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Hackathon">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="lib">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Wunderlist" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="88" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="104" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="108" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="908" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="75" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="106" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="110" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="917" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/samples/src/main/java/helloworld" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Hackathon" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="add273f3-8bc7-4abd-bb16-7b05820ed6c1" name="Default" comment="" />
+      <created>1459004982109</created>
+      <option name="number" value="Default" />
+      <updated>1459004982109</updated>
+      <workItem from="1459004984929" duration="1262000" />
+      <workItem from="1459013886875" duration="3845000" />
+      <workItem from="1459018287496" duration="1024000" />
+      <workItem from="1459019672633" duration="5004000" />
+      <workItem from="1459045925215" duration="203000" />
+      <workItem from="1459046176940" duration="706000" />
+      <workItem from="1459090164029" duration="5373000" />
+    </task>
+    <task id="LOCAL-00001" summary="Small Little Change">
+      <created>1459007692157</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459007692157</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Small Little Change">
+      <created>1459017144844</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1459017144844</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Small Little Change">
+      <created>1459017618833</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1459017618833</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First Zip">
+      <created>1459019014249</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1459019014249</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First Zip">
+      <created>1459039869514</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1459039869514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="17417000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-5" y="53" width="1280" height="675" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4072165" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24151857" sideWeight="0.49310344" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24151857" sideWeight="0.50689656" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32872504" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="Small Little Change" />
+    <MESSAGE value="First Zip" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Zip" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding>
+            <marker date="1459094622000" expanded="true" signature="73:252" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <marker date="1459094622000" expanded="true" signature="73:252" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechletRequestStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1459043603000" expanded="false" signature="0:572" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="false" signature="601:715" placeholder="..." />
+            <marker date="1459043603000" expanded="true" signature="717:1119" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="1316:1619" placeholder="{...}" />
+            <marker date="1459043603000" expanded="false" signature="1673:1684" placeholder=" { " />
+            <marker date="1459043603000" expanded="false" signature="1742:1748" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/Launcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/EVENTLIST">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/CREATION">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/customSlotTypes/VIEWING">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/SampleUtterances.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/speechAssets/IntentSchema.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48351648">
+          <caret line="84" column="25" selection-start-line="84" selection-start-column="25" selection-end-line="84" selection-end-column="25" />
+          <folding>
+            <marker date="1459094258000" expanded="true" signature="104:5524" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="494:635" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="511:617" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="653:3537" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="670:814" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="831:980" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="997:1163" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="1180:1355" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="1372:1548" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="1565:1712" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="1729:1884" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="1901:2068" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="2085:2267" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="2284:2453" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="2470:2612" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="2629:2806" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="2823:2983" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3000:3162" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3179:3336" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3353:3519" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3553:3745" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3756:5513" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3779:5502" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3795:5478" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3812:4153" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="3982:4135" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="4171:5461" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="4332:5443" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="4407:5416" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="4438:4587" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="4618:4760" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="4791:4978" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="5009:5186" placeholder="..." />
+            <marker date="1459094258000" expanded="true" signature="5217:5384" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/WTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12435233">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <marker date="1459094550000" expanded="true" signature="28:114" placeholder="..." />
+            <marker date="1459094550000" expanded="true" signature="116:157" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="true" signature="183:216" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="241:282" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="317:361" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="395:447" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="491:530" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="563:603" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="639:677" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="711:749" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="778:817" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="848:884" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="915:950" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="981:1028" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1051:1062" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1072:1078" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1084:1133" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1163:1174" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1187:1193" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1199:1253" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1286:1297" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1314:1320" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1326:1390" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1437:1448" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1475:1481" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1487:1543" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1575:1586" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1605:1611" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1617:1686" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1734:1745" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1776:1782" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1788:1851" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1893:1904" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1930:1936" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1942:2026" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2091:2102" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2147:2153" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2159:2211" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2242:2253" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2268:2274" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2280:2340" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2383:2394" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2417:2423" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2429:2483" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2516:2527" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2544:2550" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2556:2619" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2667:2678" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2705:2711" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2717:2769" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2800:2811" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2826:2832" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2838:2897" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2941:2952" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2975:2981" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2987:3038" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3065:3076" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3090:3096" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3102:3160" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3198:3209" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3230:3236" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3242:3295" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3324:3335" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3351:3357" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3363:3424" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3466:3477" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3502:3508" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3514:3564" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3593:3604" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3617:3623" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3629:3684" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3723:3734" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3753:3759" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3765:3814" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3842:3853" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3865:3871" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3877:3930" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3967:3978" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3995:4001" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12435233">
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <marker date="1459094622000" expanded="true" signature="73:252" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/WList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20725389">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1459094550000" expanded="true" signature="28:114" placeholder="..." />
+            <marker date="1459094550000" expanded="true" signature="146:183" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="216:256" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="295:340" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="383:426" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="464:508" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="550:591" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="633:676" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="715:760" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="803:842" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="881:922" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="949:964" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="974:984" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="994:1037" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1071:1086" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1099:1109" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1119:1163" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1196:1211" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1224:1234" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1244:1293" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1336:1351" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1370:1380" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1390:1438" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1475:1490" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1507:1517" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1527:1585" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1636:1651" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1678:1688" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1698:1744" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1776:1791" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1806:1816" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1826:1880" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1924:1939" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1962:1972" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1982:2029" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2065:2080" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2096:2106" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2116:2172" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2221:2236" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2261:2271" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2281:2327" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2361:2376" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2391:2401" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2411:2463" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2510:2525" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2548:2558" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2568:2615" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2648:2663" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2679:2689" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2699:2754" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2800:2815" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2840:2850" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2860:2908" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2945:2960" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2977:2987" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2997:3055" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3106:3121" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3148:3158" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3168:3211" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3243:3258" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3270:3280" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3290:3337" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3378:3393" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3410:3420" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechletRequestStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0880829">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <marker date="1459043603000" expanded="false" signature="0:572" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="false" signature="601:715" placeholder="..." />
+            <marker date="1459043603000" expanded="true" signature="717:1119" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="1316:1619" placeholder="{...}" />
+            <marker date="1459043603000" expanded="false" signature="1673:1684" placeholder=" { " />
+            <marker date="1459043603000" expanded="false" signature="1742:1748" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2728844">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <marker date="1459096811000" expanded="true" signature="81:274" placeholder="..." />
+            <marker date="1459096811000" expanded="true" signature="419:615" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="650:970" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="1006:1221" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="1298:1891" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="1929:2130" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="2176:2476" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="2585:3324" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="3319:3324" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.746114">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
