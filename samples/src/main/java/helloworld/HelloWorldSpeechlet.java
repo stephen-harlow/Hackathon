@@ -78,6 +78,7 @@ public class HelloWorldSpeechlet implements Speechlet {
                 session.getSessionId());
 
         String[] intentValues = new String[4];
+        String[] vals = new String[2];
         Intent intent = request.getIntent();
         String intentName = (intent != null) ? intent.getName() : null;
         String[] intentNames = {"event", "date", "timeStart", "duration"};
@@ -85,52 +86,66 @@ public class HelloWorldSpeechlet implements Speechlet {
         if ("OpenListIntent".equals(intentName)) {
             System.out.println();
             Slot slot = intent.getSlot("event");
+
             if (slot != null && slot.getValue() != null) {
-                return setListInSession(new String{"I have now opened the list named","What would you like to do next in the list?"}, "open",intent, session);
+
+                vals = new String[]{"I have now opened the list named ", "What would you like to do next in the list?"};
+                return setListInSession(true, vals, "open", intent, session);
+            } else {
+                SimpleCard card = new SimpleCard();
+                card.setTitle("Session");
+                //card.setContent(speechText);
+                card.setContent(slot.getValue());
+
+                // Create the plain text output.
+                PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
+                speech.setText("I'm not quite sure what list you were looking for");
+                return SpeechletResponse.newTellResponse(speech, card);
+//                String speechText =
+//                        "";
+//                String repromptText =
+//                        "Please try again. ";
+//
+//                return getSpeechletResponse(speechText, repromptText, true, session);
+
             }
-            else{
+        }
+          else if ("CreateListIntent".equals(intentName)) {
+            System.out.println();
+
+            Slot slot = intent.getSlot("event");
+            if (slot != null && slot.getValue() != null) {
+                //if ben's code returns false, dont set session
+                //return getSpeechletResponse("I'm unable to add a list now. Please try again later", "", false, session);
+                //otherwise, set session to the name of the event
+                //
+                vals = new String[]{"I have now created the list named ", "What would you like to do next in the list?"};
+                return setListInSession(true, vals, "create", intent, session);
+
+            } else {
                 String speechText =
-                        "I'm not quite sure what list you were looking for";
+                        "I couldn't hear what the list name was.";
                 String repromptText =
                         "Please try again. ";
 
-                return getSpeechletResponse(speechText, repromptText, true);
+                return getSpeechletResponse(speechText, repromptText, true, session);
 
             }
-          else if ("CreateListIntent".equals(intentName)) {
-                System.out.println();
-
-                Slot slot = intent.getSlot("event");
-                if (slot != null && slot.getValue() != null) {
-                    //if ben's code returns false, dont set session
-                    //return getSpeechletResponse("I'm unable to add a list now. Please try again later", "", false);
-                    //otherwise, set session to the name of the event
-                    //
-                    return setListInSession(new String{"I have now created the list named","What would you like to do next in the list?"}, "create",intent, session);
-
-                }
-                else{
-                    String speechText =
-                            "I couldn't hear what the list name was.";
-                    String repromptText =
-                            "Please try again. ";
-
-                    return getSpeechletResponse(speechText, repromptText, true);
-
-                }
+        }
         else if ("DeleteListIntent".equals(intentName)) {
             System.out.println();
 
             Slot slot = intent.getSlot("event");
             if (slot != null && slot.getValue() != null && slot.getValue() != INBOX_KEY) {
                 //if ben's code returns false, dont set session
-                //return getSpeechletResponse("I'm unable to remove a list now. Please try again later", "", false);
+                //return getSpeechletResponse("I'm unable to remove a list now. Please try again later", "", false, session);
                 //otherwise, set session to the name of the event
                 //
                 if(slot.getValue().equals(session.getAttribute(LIST_KEY))){
                     session.setAttribute(LIST_KEY, INBOX_KEY);
                 }
-                return setListInSession(new String{"I have now deleted the list named","What would you like to do next?"}, "delete",intent, session);
+                vals = new String[]{"I have now deleted the list named ","What would you like to do next?"};
+                return setListInSession(false, vals, "delete",intent, session);
 
 
             }
@@ -140,10 +155,11 @@ public class HelloWorldSpeechlet implements Speechlet {
                 String repromptText =
                         "Please try again. ";
 
-                return getSpeechletResponse(speechText, repromptText, true);
+                return getSpeechletResponse(speechText, repromptText, true, session);
 
             }
-        }else if ("CreateEventIntent".equals(intentName)) {
+        }
+        else if ("CreateEventIntent".equals(intentName)) {
             String empt = "";
 
             for(int i = 0; i < 4; i++)
@@ -157,7 +173,8 @@ public class HelloWorldSpeechlet implements Speechlet {
             }
 
             return getCreationResponse(intentValues);
-        }else if("ViewEventIntent".equals(intentName))
+        }
+        else if("ViewEventIntent".equals(intentName))
         {
             String empt = "";
 
@@ -179,7 +196,7 @@ public class HelloWorldSpeechlet implements Speechlet {
 
 
     }
-    private SpeechletResponse setListInSession(String pass[], String fail, final Intent intent, final Session session) {
+    private SpeechletResponse setListInSession(boolean change, String pass[], String fail, final Intent intent, final Session session) {
         // Get the slots from the intent.
         Map<String, Slot> slots = intent.getSlots();
 
@@ -191,7 +208,8 @@ public class HelloWorldSpeechlet implements Speechlet {
         if (favoriteListSlot != null) {
             // Store the user's favorite color in the Session and create response.
             String listname = favoriteListSlot.getValue();
-            session.setAttribute(LIST_KEY, listname;
+            if(change)
+                session.setAttribute(LIST_KEY, listname);
             speechText =
                     String.format(pass[0] + listname);
             repromptText = pass[1];
@@ -202,17 +220,18 @@ public class HelloWorldSpeechlet implements Speechlet {
             repromptText ="Please try again. ";
         }
 
-        return getSpeechletResponse(speechText, repromptText, true);
+        return getSpeechletResponse(speechText, repromptText, true, session);
     }
     /**
      * Returns a Speechlet response for a speech and reprompt text.
      */
     private SpeechletResponse getSpeechletResponse(String speechText, String repromptText,
-                                                   boolean isAskResponse) {
+                                                   boolean isAskResponse,Session session) {
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
         card.setTitle("Session");
-        card.setContent(speechText);
+        //card.setContent(speechText);
+        card.setContent(session.getAttribute(LIST_KEY).toString());
 
         // Create the plain text output.
         PlainTextOutputSpeech speech = new PlainTextOutputSpeech();
@@ -224,10 +243,10 @@ public class HelloWorldSpeechlet implements Speechlet {
             repromptSpeech.setText(repromptText);
             Reprompt reprompt = new Reprompt();
             reprompt.setOutputSpeech(repromptSpeech);
-
             return SpeechletResponse.newAskResponse(speech, reprompt, card);
 
         } else {
+
             return SpeechletResponse.newTellResponse(speech, card);
         }
     }
@@ -245,7 +264,7 @@ public class HelloWorldSpeechlet implements Speechlet {
      * @return SpeechletResponse spoken and visual response for the given intent
      */
     private SpeechletResponse getWelcomeResponse() {
-        String speechText = "Welcome to the Alexa Skills Kit, you can say hello";
+        String speechText = "I have opened Wunderlist ";
         //
         // Create the Simple card content.
         SimpleCard card = new SimpleCard();
