@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="add273f3-8bc7-4abd-bb16-7b05820ed6c1" name="Default" comment="First Zip">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/Launcher.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/helloworld/Api.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/helloworld/HelloWorldSpeechlet.class" afterPath="" />
@@ -13,8 +12,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/samples/target/classes/session/SessionSpeechletRequestStreamHandler.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/target/alexa-skills-kit-samples-1.0-jar-with-dependencies.jar" afterPath="$PROJECT_DIR$/samples/target/alexa-skills-kit-samples-1.0-jar-with-dependencies.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/target/alexa-skills-kit-samples-1.0.jar" afterPath="$PROJECT_DIR$/samples/target/alexa-skills-kit-samples-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java" afterPath="$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/samples/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/samples/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
     </list>
     <ignored path="Hackathon.iws" />
@@ -41,11 +40,11 @@
       <file leaf-file-name="HelloWorldSpeechlet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.746114">
-              <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.20725389">
+              <caret line="208" column="39" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+                <marker date="1459099797000" expanded="true" signature="12628:13011" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -664,7 +663,7 @@
       <workItem from="1459019672633" duration="5004000" />
       <workItem from="1459045925215" duration="203000" />
       <workItem from="1459046176940" duration="706000" />
-      <workItem from="1459090164029" duration="5373000" />
+      <workItem from="1459090164029" duration="6955000" />
     </task>
     <task id="LOCAL-00001" summary="Small Little Change">
       <created>1459007692157</created>
@@ -700,7 +699,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17417000" />
+    <option name="totallyTimeSpent" value="18999000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="53" width="1280" height="675" extended-state="0" />
@@ -788,7 +787,7 @@
           <caret line="129" column="0" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+            <marker date="1459099797000" expanded="true" signature="12628:13011" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -813,7 +812,7 @@
           <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+            <marker date="1459099797000" expanded="true" signature="12628:13011" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -861,7 +860,7 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+            <marker date="1459099797000" expanded="true" signature="12628:13011" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -952,10 +951,126 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/WTask.java">
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.12435233">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="12" />
+          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <marker date="1459094622000" expanded="true" signature="73:252" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechletRequestStreamHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0880829">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+          <folding>
+            <marker date="1459043603000" expanded="false" signature="0:572" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="false" signature="601:715" placeholder="..." />
+            <marker date="1459043603000" expanded="true" signature="717:1119" placeholder="/**...*/" />
+            <marker date="1459043603000" expanded="true" signature="1316:1619" placeholder="{...}" />
+            <marker date="1459043603000" expanded="false" signature="1673:1684" placeholder=" { " />
+            <marker date="1459043603000" expanded="false" signature="1742:1748" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3212435">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <marker date="1459096811000" expanded="true" signature="81:274" placeholder="..." />
+            <marker date="1459096811000" expanded="true" signature="419:615" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="650:970" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="1006:1221" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="1298:1891" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="1929:2130" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="2176:2476" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="2585:3324" placeholder="{...}" />
+            <marker date="1459096811000" expanded="true" signature="3319:3324" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/WList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20725389">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1459094550000" expanded="true" signature="28:114" placeholder="..." />
+            <marker date="1459094550000" expanded="true" signature="146:183" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="216:256" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="295:340" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="383:426" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="464:508" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="550:591" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="633:676" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="715:760" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="803:842" placeholder="@{...}" />
+            <marker date="1459094550000" expanded="true" signature="881:922" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="949:964" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="974:984" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="994:1037" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1071:1086" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1099:1109" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1119:1163" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1196:1211" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1224:1234" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1244:1293" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1336:1351" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1370:1380" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1390:1438" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1475:1490" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1507:1517" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1527:1585" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1636:1651" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1678:1688" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1698:1744" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1776:1791" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1806:1816" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1826:1880" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="1924:1939" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="1962:1972" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="1982:2029" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2065:2080" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2096:2106" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2116:2172" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2221:2236" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2261:2271" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2281:2327" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2361:2376" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2391:2401" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2411:2463" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2510:2525" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2548:2558" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2568:2615" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2648:2663" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2679:2689" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2699:2754" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2800:2815" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2840:2850" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2860:2908" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="2945:2960" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="2977:2987" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="2997:3055" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3106:3121" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3148:3158" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3168:3211" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3243:3258" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3270:3280" placeholder=" }" />
+            <marker date="1459094550000" expanded="true" signature="3290:3337" placeholder="/**...*/" />
+            <marker date="1459094550000" expanded="false" signature="3378:3393" placeholder=" { " />
+            <marker date="1459094550000" expanded="false" signature="3410:3420" placeholder=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/WTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4974093">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <marker date="1459094550000" expanded="true" signature="28:114" placeholder="..." />
             <marker date="1459094550000" expanded="true" signature="116:157" placeholder="/**...*/" />
@@ -1040,129 +1155,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Api.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12435233">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <marker date="1459094622000" expanded="true" signature="73:252" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/WList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20725389">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <marker date="1459094550000" expanded="true" signature="28:114" placeholder="..." />
-            <marker date="1459094550000" expanded="true" signature="146:183" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="216:256" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="295:340" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="383:426" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="464:508" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="550:591" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="633:676" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="715:760" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="803:842" placeholder="@{...}" />
-            <marker date="1459094550000" expanded="true" signature="881:922" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="949:964" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="974:984" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="994:1037" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="1071:1086" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="1099:1109" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="1119:1163" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="1196:1211" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="1224:1234" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="1244:1293" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="1336:1351" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="1370:1380" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="1390:1438" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="1475:1490" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="1507:1517" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="1527:1585" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="1636:1651" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="1678:1688" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="1698:1744" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="1776:1791" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="1806:1816" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="1826:1880" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="1924:1939" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="1962:1972" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="1982:2029" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="2065:2080" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="2096:2106" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="2116:2172" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="2221:2236" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="2261:2271" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="2281:2327" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="2361:2376" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="2391:2401" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="2411:2463" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="2510:2525" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="2548:2558" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="2568:2615" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="2648:2663" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="2679:2689" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="2699:2754" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="2800:2815" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="2840:2850" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="2860:2908" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="2945:2960" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="2977:2987" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="2997:3055" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="3106:3121" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="3148:3158" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="3168:3211" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="3243:3258" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="3270:3280" placeholder=" }" />
-            <marker date="1459094550000" expanded="true" signature="3290:3337" placeholder="/**...*/" />
-            <marker date="1459094550000" expanded="false" signature="3378:3393" placeholder=" { " />
-            <marker date="1459094550000" expanded="false" signature="3410:3420" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechletRequestStreamHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0880829">
-          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
-          <folding>
-            <marker date="1459043603000" expanded="false" signature="0:572" placeholder="/**...*/" />
-            <marker date="1459043603000" expanded="false" signature="601:715" placeholder="..." />
-            <marker date="1459043603000" expanded="true" signature="717:1119" placeholder="/**...*/" />
-            <marker date="1459043603000" expanded="true" signature="1316:1619" placeholder="{...}" />
-            <marker date="1459043603000" expanded="false" signature="1673:1684" placeholder=" { " />
-            <marker date="1459043603000" expanded="false" signature="1742:1748" placeholder=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/Wund.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.2728844">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding>
-            <marker date="1459096811000" expanded="true" signature="81:274" placeholder="..." />
-            <marker date="1459096811000" expanded="true" signature="419:615" placeholder="{...}" />
-            <marker date="1459096811000" expanded="true" signature="650:970" placeholder="{...}" />
-            <marker date="1459096811000" expanded="true" signature="1006:1221" placeholder="{...}" />
-            <marker date="1459096811000" expanded="true" signature="1298:1891" placeholder="{...}" />
-            <marker date="1459096811000" expanded="true" signature="1929:2130" placeholder="{...}" />
-            <marker date="1459096811000" expanded="true" signature="2176:2476" placeholder="{...}" />
-            <marker date="1459096811000" expanded="true" signature="2585:3324" placeholder="{...}" />
-            <marker date="1459096811000" expanded="true" signature="3319:3324" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/samples/src/main/java/helloworld/HelloWorldSpeechlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.746114">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20725389">
+          <caret line="208" column="39" selection-start-line="208" selection-start-column="39" selection-end-line="208" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1459097623000" expanded="true" signature="11668:12051" placeholder="{...}" />
+            <marker date="1459099797000" expanded="true" signature="12628:13011" placeholder="{...}" />
           </folding>
         </state>
       </provider>

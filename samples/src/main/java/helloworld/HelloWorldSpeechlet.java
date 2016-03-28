@@ -10,6 +10,7 @@
 package helloworld;
 
 import java.util.Map;
+import java.util.*;
 import java.io.IOException;
 
 import com.amazon.speech.slu.Intent;
@@ -178,14 +179,19 @@ public class HelloWorldSpeechlet implements Speechlet {
                 else
                     intentValues[i] = "";
             }
-            if(intent.getSlot("event") != null){
-                try {
-                    new Wund(session.getUser().getAccessToken()).createTask(session.getAttribute(LIST_KEY).toString(), intent.getSlot("event").getValue(), null, 1);
-                } catch (Exception e){
-
-                }
-            }
-            return getCreationResponse(intentValues);
+//            if(intent.getSlot("event") != null){
+//                try {
+//                    new Wund(session.getUser().getAccessToken()).createTask(session.getAttribute(LIST_KEY).toString(), intent.getSlot("event").getValue(), null, 1);
+//                } catch (Exception e){
+//                    return getCreationResponse(new String[]{"Failure"});
+//                }
+//            }
+//            String s = "";
+//            for(int i = 0; i < intentValues.length; i++){
+//                s += " "  + intentValues[i];
+//            }
+//            Slot slot = intent.getSlot("event"); return getSpeechletResponse(slot.getValue(), "", true, session);
+            return getCreationResponse(new String[]{""});
         }
         else if("ViewEventIntent".equals(intentName))
         {
@@ -196,6 +202,21 @@ public class HelloWorldSpeechlet implements Speechlet {
                 Slot slot = intent.getSlot(in);
                 if(slot != null && slot.getValue() != null) {
                     empt += in +"::" +slot.getValue().toString() + "\r\n";
+                }
+            }
+
+            if(intent.getSlot("event") == null){
+                List<WTask> l = new Wund(session.getUser().getAccessToken()).getAllTasks(session.getAttribute(LIST_KEY).getValue());
+                if(l == null){
+                    return getViewResponse("Failure");
+                } else {
+                    String items = "";
+                    int i = 0;
+                    for(WTask w : l){
+                        items += w.getTitle();
+                       i++;
+                    }
+                    return getViewResponse(items);
                 }
             }
 
